@@ -23,9 +23,9 @@ BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = 'nfs(+z3*^7ew)5&5m1e7^o4jkdn2rmbgp9*4sycqb(a=uu$z(+'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['https://shoppers-street.herokuapp.com/', '127.0.0.1']
 
 
 # Application definition
