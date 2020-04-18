@@ -1,0 +1,181 @@
+body {
+    background: #fafafa;
+    color: #333333;
+    margin-top: 5rem;
+    background-image: url("Logo.png");
+    background-color: black; /* Used if the image is unavailable */
+  height: 500px; /* You must set a specified height */
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  /* background-size: cover; Resize the background image to cover the entire container */
+
+
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    color: #444444;
+  }
+
+  ul {
+    margin: 0;
+  }
+
+  .bg-steel {
+    background-color: #0B0E16;
+  }
+
+  .site-header .navbar-nav .nav-link {
+    color: #cbd5db;
+  }
+
+  .site-header .navbar-nav .nav-link:hover {
+    color: #ffffff;
+  }
+
+  .site-header .navbar-nav .nav-link.active {
+    font-weight: 500;
+  }
+
+  .content-section {
+    background: #ffffff;
+    padding: 10px 20px;
+    border: 1px solid #dddddd;
+    border-radius: 3px;
+    margin-bottom: 20px;
+  }
+
+  .article-title {
+    color: #444444;
+  }
+
+  a.article-title:hover {
+    color: #428bca;
+    text-decoration: none;
+  }
+
+  .article-content {
+    white-space: pre-line;
+  }
+
+  .article-img {
+    height: 65px;
+    width: 65px;
+    margin-right: 16px;
+  }
+
+  .article-metadata {
+    padding-bottom: 1px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid #e3e3e3
+  }
+
+  .article-metadata a:hover {
+    color: #333;
+    text-decoration: none;
+  }
+
+  .article-svg {
+    width: 25px;
+    height: 25px;
+    vertical-align: middle;
+  }
+
+  .account-img {
+    height: 125px;
+    width: 125px;
+    margin-right: 20px;
+    margin-bottom: 16px;
+  }
+
+  .account-heading {
+    font-size: 2.5rem;
+  }
+  button.btn{
+    margin-left: 477px;
+    margin-top: 380px;
+    position: absolute;
+    background-color: rgba(189, 146, 39, 0.842);
+    color: black;
+    padding: 10px 22px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 18px;
+  }
+ p.first-text{
+     font-size: 40px;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+     color: #CBD5DB;
+     text-align: left;
+     height: 80%;
+     width: 300%;
+     display: block;
+     margin-left: 1%;
+     margin-right: auto;
+ }
+ img{
+    margin-left: 850px;
+    margin-top: 390px;
+
+    width: 180px;
+    height: 180px;
+ }
+ .second-text p{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CBD5DB;
+    text-align: right;
+    height: 80%;
+    width: 90%;
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+ }
+ .container h1{
+    font-size: 55px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CBD5DB;
+    text-align: center;
+    height: 80%;
+    width: 90%;
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+ }
+
+.container p{
+    font-size: 35px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #CBD5DB;
+    text-align: center;
+    height: 80%;
+    width: 90%;
+    display: block;
+    margin-left: 1%;
+    margin-right: auto;
+ }
+
+hr {
+        display: block;
+        margin-top: 0.5em;
+        margin-bottom: 0.5em;
+        margin-left: auto;
+        margin-right: auto;
+        border-style: inset;
+        border-width: 1.3px;
+        color: #CBD5DB;
+    }
+.numberCircle{
+    border-radius: 85%;
+    width: 60px;
+    height: 65px;
+
+    padding-top: 12px ;
+    background: #fff;
+    border: 2px solid #666;
+    color: #666;
+    text-align: center;
+
+    font: 32px Arial, sans-serif;
+    margin-left: 250px;
+}
