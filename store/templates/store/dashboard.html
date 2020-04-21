@@ -37,14 +37,25 @@
             <a class="nav-link" href="{% url 'store-about' %}">About</a>
           </li>
         </ul>
-        <ul class="navbar-nav mr-right mr-2">
+        <!-- Navbar Right Side -->
+        <div class="navbar-nav">
+          {% if user.is_authenticated %}
+            <a class="nav-item nav-link" href="{% url 'post-create' %}">New Post</a>
+            <a class="nav-item nav-link" href="{% url 'profile' %}">Profile</a>
+            <a class="nav-item nav-link" href="{% url 'logout' %}">Logout</a>
+          {% else %}
+            <a class="nav-item nav-link" href="{% url 'login' %}">Login</a>
+            <a class="nav-item nav-link" href="{% url 'register' %}">Register</a>
+          {% endif %}
+        </div>
+        <!-- <ul class="navbar-nav mr-right mr-2">
           <li class="nav-item">
             <a href="login" class="nav-link">Log In</a>
           </li>
           <li class="nav-item">
             <a href="register" class="nav-link">Register</a>
           </li>
-        </ul>
+        </ul> -->
       </div>
     </nav>
   </header>
