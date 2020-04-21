@@ -1,181 +1,113 @@
-body {
-    background: #fafafa;
-    color: #333333;
-    margin-top: 5rem;
-    background-image: url("Logo.png");
-    background-color: black; /* Used if the image is unavailable */
-  height: 500px; /* You must set a specified height */
-  background-position: center; /* Center the image */
-  background-repeat: no-repeat; /* Do not repeat the image */
-  /* background-size: cover; Resize the background image to cover the entire container */
+@import url("https://fonts.googleapis.com/css?family=Lato|Pacifico|Righteous|Roboto+Condensed|Ubuntu");
 
-
-  }
-
-  h1, h2, h3, h4, h5, h6 {
-    color: #444444;
-  }
-
-  ul {
-    margin: 0;
-  }
-
-  .bg-steel {
-    background-color: #0B0E16;
-  }
-
-  .site-header .navbar-nav .nav-link {
-    color: #cbd5db;
-  }
-
-  .site-header .navbar-nav .nav-link:hover {
-    color: #ffffff;
-  }
-
-  .site-header .navbar-nav .nav-link.active {
-    font-weight: 500;
-  }
-
-  .content-section {
-    background: #ffffff;
-    padding: 10px 20px;
-    border: 1px solid #dddddd;
-    border-radius: 3px;
-    margin-bottom: 20px;
-  }
-
-  .article-title {
-    color: #444444;
-  }
-
-  a.article-title:hover {
-    color: #428bca;
-    text-decoration: none;
-  }
-
-  .article-content {
-    white-space: pre-line;
-  }
-
-  .article-img {
-    height: 65px;
-    width: 65px;
-    margin-right: 16px;
-  }
-
-  .article-metadata {
-    padding-bottom: 1px;
-    margin-bottom: 4px;
-    border-bottom: 1px solid #e3e3e3
-  }
-
-  .article-metadata a:hover {
-    color: #333;
-    text-decoration: none;
-  }
-
-  .article-svg {
-    width: 25px;
-    height: 25px;
-    vertical-align: middle;
-  }
-
-  .account-img {
-    height: 125px;
-    width: 125px;
-    margin-right: 20px;
-    margin-bottom: 16px;
-  }
-
-  .account-heading {
-    font-size: 2.5rem;
-  }
-  button.btn{
-    margin-left: 477px;
-    margin-top: 380px;
-    position: absolute;
-    background-color: rgba(189, 146, 39, 0.842);
-    color: black;
-    padding: 10px 22px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 18px;
-  }
- p.first-text{
-     font-size: 40px;
-     font-family: Verdana, Geneva, Tahoma, sans-serif;
-     color: #CBD5DB;
-     text-align: left;
-     height: 80%;
-     width: 300%;
-     display: block;
-     margin-left: 1%;
-     margin-right: auto;
- }
- img{
-    margin-left: 850px;
-    margin-top: 390px;
-
-    width: 180px;
-    height: 180px;
- }
- .second-text p{
-    font-size: 40px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #CBD5DB;
-    text-align: right;
-    height: 80%;
-    width: 90%;
-    display: block;
-    margin-left: 1%;
-    margin-right: auto;
- }
- .container h1{
-    font-size: 55px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #CBD5DB;
-    text-align: center;
-    height: 80%;
-    width: 90%;
-    display: block;
-    margin-left: 1%;
-    margin-right: auto;
- }
-
-.container p{
+body{
+    padding: 0%;
+    margin: 0%;
+    font-family: 'Lato';
+}
+.navbar-brand{
+    font-family: 'Pacifico';
     font-size: 35px;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: #CBD5DB;
-    text-align: center;
-    height: 80%;
-    width: 90%;
-    display: block;
-    margin-left: 1%;
-    margin-right: auto;
- }
-
-hr {
-        display: block;
-        margin-top: 0.5em;
-        margin-bottom: 0.5em;
-        margin-left: auto;
-        margin-right: auto;
-        border-style: inset;
-        border-width: 1.3px;
-        color: #CBD5DB;
-    }
-.numberCircle{
-    border-radius: 85%;
-    width: 60px;
-    height: 65px;
-
-    padding-top: 12px ;
-    background: #fff;
-    border: 2px solid #666;
-    color: #666;
-    text-align: center;
-
-    font: 32px Arial, sans-serif;
-    margin-left: 250px;
+    
+}
+.nav-link{
+    font-size: 16px;
+    margin: 13px;
+    color: whitesmoke !important;
+    font-family: 'Roboto Condensed';
+}
+.nav-link:hover{
+    color: darkgoldenrod !important;
+}
+.site-content{
+  background-image: url("Logo.png");
+  background-attachment: fixed;
+  background-size: cover;
+}
+.btn-site1{
+  margin-left: 10%;
+  background-color: rgba(184, 135, 11, 0.877);
+  color: black;
+  margin-top: 340%;
+  margin-bottom: 40%;
+}
+.section-1 .heading-1{
+  margin-top: 8%;
+}
+.section-1 .heading-2{
+  margin-bottom: 5%;
+  font-size: 39px;
+}
+.section-1 p{
+  width: 60%;
+  margin-left: 20%;
+  margin-bottom: 5%;
+  color: rgba(0,0,0.59);
+}
+.image-fluid img{
+     
+  max-width: 120%;
+  height: auto;
+}
+.section-1 .card-title-2{
+  margin-top: 6%;
+}
+.section-1 .card-title-3{
+  margin-top: -8%;
+}
+.section-2 .container-fluid{
+  margin-top: 5%;
+  background-image: url("ppp.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+.section-2 .heading-1{
+  margin-top: 20%;
+  margin-bottom: 4%;
+  font-family: 'Righteous';
+  width: 80%;
+  color: black;
+}
+.section-2 .para-1{
+  margin-left: 16px;
+  width: 80%;
+  font-family: 'Ubuntu';
+  margin-bottom: 7%;
+  color: black;
+}
+.section-2 .btn{
+ margin-bottom: 15%;
+  width: 30%;
+  padding: 2% 5%;
+}
+.section-3{
+  margin-top: 6%;
+}
+.section-3 i{
+  color:  rgba(184, 135, 11, 0.877);
+}
+.section-3 p{
+  color: rgba(0,0,0,0.59);
+}
+.section-4 a{
+  font-size: 40px;
+  color:  rgba(184, 135, 11, 0.877);
+  text-decoration: none;
+}
+.section-4 h3{
+  font-size: 40px;
+}
+.section-4 .steps{
+ margin-top: 7%;
+ font-size: 23px;
+ font-family: 'Roboto Condensed';
+ color: white;
+ margin-left: 10px;
+}
+.section-4 ol{
+  font-size: 30px;
+}
+.social{
+  font-size: 40px;
+  color: rgba(184, 135, 11, 0.877);;
 }
